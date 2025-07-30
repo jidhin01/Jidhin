@@ -55,7 +55,7 @@ export default function SkillsTabs() {
 
   return (
 
-    <div className='max-w-5xl mx-auto items-cenetr justify-cenetr
+    <div className='max-w-5xl mx-auto items-center justify-center
      '>
         <div className='bg-white flex items-center justify-center  h-30 m-10' >
           <TextHoverEffect text="Tech Stack"/>
