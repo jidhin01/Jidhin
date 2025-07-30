@@ -32,7 +32,7 @@ export const projects = [
     title: "Connect",
     description:
       "Developed a user-friendly social media app with React.js, allowing users to create posts, interact with others through comments and likes, and connect seamlessly in real time, thereby improving engagement and community interaction.",
-    link: "https://github.com/jidhin01/weatherapp",
+    link: "https://github.com/jidhin01/connect",
   },
   
 ];

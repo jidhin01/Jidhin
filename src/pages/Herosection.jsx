@@ -41,7 +41,7 @@ const Herosection = () => {
           </Link>
 
           <a
-            href={`${import.meta.env.BASE_URL}/jidhin.pdf`}
+            href="/jidhin.pdf"
             download="jidhin.pdf"
             target="_blank"
             rel="noopener noreferrer"
