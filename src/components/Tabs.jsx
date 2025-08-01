@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
 import { useOnClickOutside } from "usehooks-ts";
-import { cn } from "../lib/util"; // Adjust path
+import { cn } from "../lib/util"; // Adjust path as needed
 
 const buttonVariants = {
   initial: {
@@ -31,7 +31,7 @@ const transition = {
 export function ExpandedTabs({ tabs, className = "" }) {
   const ref = useRef(null);
   const inViewRef = useRef(null);
-  const isInView = useInView(inViewRef, { once: true, margin: "-50px" }); // Trigger when 50px inside
+  const isInView = useInView(inViewRef, { once: true, margin: "-50px" });
 
   useOnClickOutside(ref, () => {});
 
@@ -46,7 +46,8 @@ export function ExpandedTabs({ tabs, className = "" }) {
         inViewRef.current = el;
       }}
       className={cn(
-        "inline-flex gap-2 rounded-2xl  justify-center items-center border bg-background p-1 shadow-sm",
+        // 👇 Responsive layout
+        "inline-flex flex-wrap sm:flex-nowrap gap-2 justify-center items-center border bg-background p-1 shadow-sm rounded-2xl overflow-x-auto max-w-full",
         className
       )}
       initial={{ opacity: 0, y: 50 }}
@@ -77,7 +78,8 @@ export function ExpandedTabs({ tabs, className = "" }) {
                 size: 20,
                 className: cn(
                   "transition-colors duration-300",
-                  "text-muted-foreground group-hover:" + tab.activeClass?.replace("text-", "text-")
+                  "text-muted-foreground group-hover:" +
+                    tab.activeClass?.replace("text-", "text-")
                 ),
               })}
 

@@ -33,7 +33,7 @@ export function PopoverForm({
         {open && (
           <motion.div
             layoutId={`${title}-wrapper`}
-            className="absolute p-1 overflow-hidden bg-muted shadow-[0_0_0_1px_rgba(0,0,0,0.08),0px_1px_2px_rgba(0,0,0,0.04)] outline-none"
+            className="absolute p-1 overflow-hidden bg-muted outline-none"
             ref={ref}
             style={{ borderRadius: 10, width, height }}
           >

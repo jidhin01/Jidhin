@@ -4,17 +4,18 @@ import { TextHoverEffect } from "../components/Text-hover";
 
 export function Projects() {
   return (
-    <div className="m-10">
-      <div className='bg-white h-30 mt-10' >
-          <TextHoverEffect text="Projects"/>
-        </div>
+    <div className="m-4 sm:m-6 md:m-10">
+      <div className="bg-white max-w-100 mx-auto  m-10">
+        <TextHoverEffect text="Projects" />
+      </div>
 
-    <div className="max-w-5xl mx-auto bg-cyan-800  shadow-2xl  rounded-4xl px-8 mt-10 mb-30">
-      <HoverEffect items={projects} />
-    </div>
+      <div className="max-w-5xl mx-auto bg-cyan-800 shadow-2xl rounded-4xl px-4 sm:px-6 md:px-8 mt-10 mb-20">
+        <HoverEffect items={projects} />
+      </div>
     </div>
   );
 }
+
 export const projects = [
   {
     title: "Popcorn",
@@ -34,5 +35,4 @@ export const projects = [
       "Developed a user-friendly social media app with React.js, allowing users to create posts, interact with others through comments and likes, and connect seamlessly in real time, thereby improving engagement and community interaction.",
     link: "https://github.com/jidhin01/connect",
   },
-  
 ];

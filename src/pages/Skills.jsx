@@ -55,17 +55,20 @@ export default function SkillsTabs() {
 
   return (
 
+    <div>
+      
     <div className='max-w-5xl mx-auto items-center justify-center
      '>
         <div className='bg-white flex items-center justify-center  h-30 m-10' >
-          <TextHoverEffect text="Tech Stack"/>
-        </div>
+                <TextHoverEffect text="Tech Stack"/>
+              </div>
 
       <ExpandedTabs tabs={tabs1} className="m-5 "/>
       <ExpandedTabs tabs={tabs2} className="m-5"/>
       <ExpandedTabs tabs={tabs3} className="m-5"/>
       <ExpandedTabs tabs={tabs4} className="m-5"/>
       <ExpandedTabs tabs={tabs5} className="m-5"/>
+    </div>
     </div>
   );
 }
