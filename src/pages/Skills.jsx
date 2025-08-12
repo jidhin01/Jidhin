@@ -8,10 +8,12 @@ import {
 } from "react-icons/io5";
 import {
   SiDjango, SiExpress, SiPostman, SiMongodb, SiSqlite,
-  SiTailwindcss, SiVite, SiNetlify, SiVercel, SiRender,
+  SiTailwindcss, SiVite, SiNetlify, SiVercel, SiRender, SiNextdotjs,
 } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
-import { ExpandedTabs } from "../components/Tabs"; // update path if neededimport { TextHoverEffect } from "../components/Text-hover";
+import { RiNodejsFill } from "react-icons/ri";
+import { TbBrandFramerMotion } from "react-icons/tb";
+import { ExpandedTabs } from "../components/Tabs"; 
 import { TextHoverEffect } from "../components/Text-hover";
 
 export default function SkillsTabs() {
@@ -25,27 +27,34 @@ export default function SkillsTabs() {
 
   const tabs2 = [   
     { title: "React", icon: <FaReact />, activeClass: "text-cyan-400" },
+    { title: "Next.js", icon: <SiNextdotjs />, activeClass: "text-black" },
+    { title: "Node.js", icon: <RiNodejsFill />, activeClass: "text-green-600" },
     { title: "Tailwind CSS", icon: <SiTailwindcss />, activeClass: "text-sky-400" },
     { title: "Bootstrap", icon: <FaBootstrap />, activeClass: "text-purple-800" },
-    { type: "separator" },
-    { title: "Django", icon: <SiDjango />, activeClass: "text-green-900" },
-    { title: "Express", icon: <SiExpress />, activeClass: "text-black" },
+    { title: "Framer Motion", icon: <TbBrandFramerMotion />, activeClass: "text-purple-600" },
+    // { type: "separator" },
+    
   ];
 
   const tabs3 = [
+    { title: "Django", icon: <SiDjango />, activeClass: "text-green-900" },
+    { title: "Express", icon: <SiExpress />, activeClass: "text-black" },
+    
+  ];
+  const tabs4 = [
     { title: "MySQL", icon: <GrMysql />, activeClass: "text-blue-700" },
     { title: "MongoDB", icon: <SiMongodb />, activeClass: "text-green-700" },
     { title: "SQLite", icon: <SiSqlite />, activeClass: "text-sky-900" },
   ];
 
-  const tabs4 = [
+  const tabs5 = [
     { title: "Git", icon: <FaGitAlt />, activeClass: "text-orange-600" },
     { title: "GitHub", icon: <FaGithub />, activeClass: "text-gray-900" },
     { title: "Postman", icon: <SiPostman />, activeClass: "text-orange-500" },
     { title: "Docker", icon: <FaDocker />, activeClass: "text-sky-400" },
  ];
 
-  const tabs5 = [
+  const tabs6 = [
     { title: "npm", icon: <FaNpm />, activeClass: "text-rose-600" },
     { title: "Vite", icon: <SiVite />, activeClass: "text-indigo-500" },
     { title: "Netlify", icon: <SiNetlify />, activeClass: "text-teal-500" },
@@ -68,6 +77,7 @@ export default function SkillsTabs() {
       <ExpandedTabs tabs={tabs3} className="m-5"/>
       <ExpandedTabs tabs={tabs4} className="m-5"/>
       <ExpandedTabs tabs={tabs5} className="m-5"/>
+      <ExpandedTabs tabs={tabs6} className="m-5"/>
     </div>
     </div>
   );
