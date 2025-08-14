@@ -6,16 +6,16 @@ import { ContactFormExample } from "../components/Email";
 // Social Icons Component
 const Icons = {
   linkedin: () => (
-    <FaLinkedin className="text-black group-hover:fill-sky-600 transition-all duration-500 ease-in-out" size={86} />
+    <FaLinkedin className="text-black hidden lg:block group-hover:fill-sky-600 transition-all duration-500 ease-in-out" size={86} />
   ),
   github: () => (
-    <FaGithub className="text-black group-hover:fill-gray-950 transition-all duration-500 ease-in-out" size={86} />
+    <FaGithub className="text-black hidden lg:block group-hover:fill-gray-950 transition-all duration-500 ease-in-out" size={86} />
   ),
   StackOverflow: () => (
-    <FaStackOverflow className="text-black group-hover:fill-orange-500 transition-all duration-500 ease-in-out" size={86} />
+    <FaStackOverflow className="text-black hidden lg:block group-hover:fill-orange-500 transition-all duration-500 ease-in-out" size={86} />
   ),
   Twitter: () => (
-    <FaSquareXTwitter className="text-black group-hover:fill-gray-950 transition-all duration-500 ease-in-out" size={86} />
+    <FaSquareXTwitter className="text-black hidden lg:block group-hover:fill-gray-950 transition-all duration-500 ease-in-out" size={86} />
   ),
 };
 
