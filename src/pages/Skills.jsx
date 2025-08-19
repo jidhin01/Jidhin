@@ -31,7 +31,7 @@ export default function SkillsTabs() {
     { title: "Node.js", icon: <RiNodejsFill />, activeClass: "text-green-600" },
     { title: "Tailwind CSS", icon: <SiTailwindcss />, activeClass: "text-sky-400" },
     { title: "Bootstrap", icon: <FaBootstrap />, activeClass: "text-purple-800" },
-    { title: "Framer Motion", icon: <TbBrandFramerMotion />, activeClass: "text-purple-600" },
+    // { title: "Framer Motion", icon: <TbBrandFramerMotion />, activeClass: "text-purple-600" },
     // { type: "separator" },
     
   ];

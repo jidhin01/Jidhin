@@ -7,10 +7,18 @@ const content = [
   {
     title: "Popcorn",
     github: "https://github.com/jidhin01/popcorn",
+    preview: "https://popcorn-a86t.onrender.com",
+    description:
+      "Developed a responsive movie ticket booking web app using Django, JavaScript, HTML, and CSS. Built secure user authentication and an admin dashboard for managing movies and ticket data. Demonstrates CRUD operations, intuitive UI, and end-to-end functionality.",
+    img: "/Popcorn.png",
+  },
+  {
+    title: "Connect",
+    github: "https://github.com/jidhin01/connect",
     preview: "#",
     description:
-      "A Python Django project showcasing the design and user interface for a movie ticket-booking website, focusing on intuitive navigation and visual appeal.",
-    img: "/Popcorn.png",
+      "Developed a scalable messaging application using React.js, featuring real-time chat and secure media sharing. Improved user engagement with interactive group conversations and instant notifications. Delivered an intuitive, responsive UI to enhance connectivity and user experience.",
+    img: "/connect.png",
   },
   {
     title: "Weathery",
@@ -20,14 +28,7 @@ const content = [
       "Developed a React.js weather app displaying real-time data (temperature, humidity, wind) from the OpenWeatherMap API based on user-entered locations, enhancing user experience with immediate feedback.",
     img: "/Weathery.png",
   },
-  {
-    title: "Connect",
-    github: "https://github.com/jidhin01/connect",
-    preview: "#",
-    description:
-      "Developed a user-friendly social media app with React.js, allowing users to create posts, interact with others through comments and likes, and connect seamlessly in real time, thereby improving engagement and community interaction.",
-    img: "/connect.png",
-  },
+  
 ];
 
 export function Projects() {

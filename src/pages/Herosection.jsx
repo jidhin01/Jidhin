@@ -48,8 +48,8 @@ const Herosection = () => {
             </Link>
 
             <a
-              href="/Jidhin.pdf"
-              download="jidhin.pdf"
+              href="/Jidhin T.pdf"
+              download="jidhin T.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-500 font-semibold text-base sm:text-lg hover:text-black focus:outline-none transition duration-300 flex items-center gap-2"
