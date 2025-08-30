@@ -15,7 +15,7 @@ const content = [
   {
     title: "Connect",
     github: "https://github.com/jidhin01/connect",
-    preview: "#",
+    preview: "https://connect-fronted.onrender.com",
     description:
       "Developed a scalable messaging application using React.js, featuring real-time chat and secure media sharing. Improved user engagement with interactive group conversations and instant notifications. Delivered an intuitive, responsive UI to enhance connectivity and user experience.",
     img: "/connect.png",
@@ -23,7 +23,7 @@ const content = [
   {
     title: "Weathery",
     github: "https://github.com/jidhin01/weatherapp",
-    preview: "#",
+    preview: "https://weatherapp-alpha-sepia.vercel.app",
     description:
       "Developed a React.js weather app displaying real-time data (temperature, humidity, wind) from the OpenWeatherMap API based on user-entered locations, enhancing user experience with immediate feedback.",
     img: "/Weathery.png",
