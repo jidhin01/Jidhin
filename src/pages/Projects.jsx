@@ -17,7 +17,7 @@ const content = [
     github: "https://github.com/jidhin01/connect",
     preview: "https://connect-fronted.onrender.com",
     description:
-      "Developed a scalable messaging application using React.js, featuring real-time chat and secure media sharing. Improved user engagement with interactive group conversations and instant notifications. Delivered an intuitive, responsive UI to enhance connectivity and user experience.",
+      "Developed a scalable messaging platform using Node.js, Express, and MongoDB Atlas, featuring real-time direct messaging, JWT authentication, and optimized APIs for low-latency, secure communication, deployed on Render with a clean, scalable architecture.",
     img: "/connect.png",
   },
   {
