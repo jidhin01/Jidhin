@@ -21,7 +21,7 @@ export const TextHoverEffect = ({ text, duration }) => {
   }, [cursor]);
 
   const responsiveTextClass =
-    "fill-transparent stroke-neutral-200 font-[helvetica] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold dark:stroke-neutral-800";
+    "fill-transparent stroke-neutral-800 font-[helvetica] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold dark:stroke-neutral-800";
 
   return (
     <svg
