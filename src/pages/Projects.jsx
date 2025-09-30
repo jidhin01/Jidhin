@@ -20,14 +20,14 @@ const content = [
       "Developed a scalable messaging platform using Node.js, Express, and MongoDB Atlas, featuring real-time direct messaging, JWT authentication, and optimized APIs for low-latency, secure communication, deployed on Render with a clean, scalable architecture.",
     img: "/connect.png",
   },
-  {
-    title: "Weathery",
-    github: "https://github.com/jidhin01/weatherapp",
-    preview: "https://weatherapp-alpha-sepia.vercel.app",
-    description:
-      "Developed a React.js weather app displaying real-time data (temperature, humidity, wind) from the OpenWeatherMap API based on user-entered locations, enhancing user experience with immediate feedback.",
-    img: "/Weathery.png",
-  },
+  // {
+  //   title: "Weathery",
+  //   github: "https://github.com/jidhin01/weatherapp",
+  //   preview: "https://weatherapp-alpha-sepia.vercel.app",
+  //   description:
+  //     "Developed a React.js weather app displaying real-time data (temperature, humidity, wind) from the OpenWeatherMap API based on user-entered locations, enhancing user experience with immediate feedback.",
+  //   img: "/Weathery.png",
+  // },
   
 ];
 
