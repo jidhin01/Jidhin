@@ -47,7 +47,7 @@ const Herosection = () => {
               Contact me
             </Link>
 
-            <a
+            {/* <a
               href="/Jidhin T.pdf"
               download="jidhin T.pdf"
               target="_blank"
@@ -55,7 +55,7 @@ const Herosection = () => {
               className="text-neutral-500 font-semibold text-base sm:text-lg hover:text-black focus:outline-none transition duration-300 flex items-center gap-2"
             >
               <IconDownload />My Resume
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
