@@ -16,8 +16,9 @@ const Herosection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-2 text-center">
             <WordRotate
               className="text-3xl sm:text-4xl font-bold bg-amber-300 text-black"
-              words={["Hello ", "नमस्ते", "നമസ്കാരം", "Hola", "Ciao","مرحبًا","Olá"]}
+              words={["Hello "]}
             />
+            {/* , "नमस्ते", "നമസ്കാരം", "Hola", "Ciao","مرحبًا","Olá" */}
             <h1 className="text-3xl sm:text-4xl font-bold text-black">
               I'm Jidhin,
             </h1>
