@@ -17,7 +17,7 @@ const content = [
     github: "https://github.com/jidhin01/connect",
     preview: "https://connect-fronted.onrender.com",
     description:
-      "Developed a scalable messaging platform using Node.js, Express, and MongoDB Atlas, featuring real-time direct messaging, JWT authentication, and optimized APIs for low-latency, secure communication, deployed on Render with a clean, scalable architecture.",
+      "Connect is a scalable, full-stack messaging application built for real-time communication. This project demonstrates proficiency in developing secure, low-latency applications and integrating Generative AI into production-ready architecture.",
     img: "/connect.png",
   },
   // {
