@@ -9,7 +9,7 @@ const Herosection = () => {
   return (
     <section className="w-screen h-screen flex items-center justify-center">
       <GridBackground />
-      <div className="min-h-[70%] max-h-[90%] md:max-w-[60%] bg-white backdrop-blur-lg border border-white/20 shadow-xl shadow-gray-500 rounded-3xl relative z-50 flex flex-col flex-1 overflow-hidden">
+      <div className="min-h-[85%] max-h-[90%] md:max-w-[60%] bg-white backdrop-blur-lg border border-white/20 shadow-xl shadow-gray-500 rounded-3xl relative z-50 flex flex-col flex-1 overflow-hidden">
         <div className="flex flex-col items-center justify-center text-center px-4 flex-1">
           
           {/* Headline & Rotating Words — now responsive */}
